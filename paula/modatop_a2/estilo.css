@@ -1,0 +1,95 @@
+
+div#principal{
+    background-color: #ffffff;
+    margin: 2%;
+    border-radius: 8px;
+    
+}
+
+body{
+    background-color: #c8a2c8;
+}
+
+nav#menu{
+    display: block;
+    background-color: #c8a2c8;
+}
+
+nav#menu li{
+    display: inline-block;
+    padding: 10px;
+    transition: background-color .5s;
+}
+
+nav#menu li:hover{
+    background-color: #993399;
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    font-size: 15pt;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    color: blueviolet;
+    text-align: center;
+    font-size: 40pt;
+    text-shadow: 2px 2px 2px black;
+    margin: 0;
+}
+
+header h2{
+    margin: 0;
+}
+
+div#conteudo{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    border-top: solid;
+    border-color: #c8a2c8;
+    border-top-width: 2px;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000000;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+div#conteudo section {
+     margin-left: 50px;
+     font-size: 10px;
+     
+    flex: 1;
+}
+div#conteudo aside {
+    
+    margin-right: 50px;
+    font-size: 10px;
+   
+} 
+div#lancamentos{
+    margin-left: 750px;
+    
+    
+}
+
+
+   
+
